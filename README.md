@@ -44,10 +44,8 @@ Create a `.env` file in the root directory using `touch .env`.
 Copy the contents below into your `.env` file.
 
 ```
-
 MONGO_URL='mongodb+srv://<username>:<password>@cluster0.j1a3k0n.mongodb.net/Assignment6?retryWrites=true&w=majority'
 LEETCODE_ENDPOINT='https://leetcode.com/graphql'
-
 ```
 
 Replace `<username>` with your own MongoDB username and `<password>` with your own MongoDB password.
@@ -79,7 +77,11 @@ Finally, you can run `npm i` to install all the required dependencies.
 
 You should have Serverless installed at this point.
 
-In your terminal, run `sls deploy` to deploy the function to AWS Lambda.
+In your terminal, run the command below to deploy the function to AWS Lambda.
+
+```
+sls deploy
+```
 
 Upon successful deployment, you should see the following in your terminal.
 
