@@ -107,7 +107,7 @@ Upon successful invocation, you should see the following in your terminal.
 
 Similarly, if you refresh your MongoDB Atlas, you should see a populated questions collection.
 
-![Populated MongoDB Atlas](./images/SuccessfulPopulation.png)
+![Populated MongoDB Atlas](./images/MongoDBPopulated.png)
 
 ```
 
