@@ -1,2 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/UxpU_KWG)
-# ServerlessTemplate
+# Getting Started
+
+In order to test the serverless function, you will need to
+
+## Create a Database and Collection
+
+You should be able to login into MongoDB Atlas [here](https://www.mongodb.com/cloud/atlas).
+Next, create a Database in your free cluster:![Setup MongoDB Atlas](./images/MongoDBCreateDatabase.png)
