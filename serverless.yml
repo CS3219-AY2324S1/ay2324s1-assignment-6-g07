@@ -1,1 +1,21 @@
-# your code here
+service: serverless-questions-service
+
+plugins:
+  - serverless-dotenv-plugin
+
+useDotenv: true
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: ap-southeast-1
+  environment:
+    MONGO_URL: ${env:MONGO_URL}
+    LEETCODE_ENDPOINT: ${env:LEETCODE_ENDPOINT}
+
+functions:
+  updateQuestionDatabase:
+    handler: src/handler.updateQuestionDatabase
+    timeout: 180
+    events:
+      - schedule: rate(1 day)

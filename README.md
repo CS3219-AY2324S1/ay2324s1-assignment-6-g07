@@ -25,6 +25,7 @@ Copy the contents below into your `.env` file.
 
 ```
 MONGO_URL='mongodb+srv://<username>:<password>@cluster0.j1a3k0n.mongodb.net/Assignment6?retryWrites=true&w=majority'
+LEETCODE_ENDPOINT='https://leetcode.com/graphql'
 ```
 
 Replace `<username>` with your own MongoDB username and `<password>` with your own MongoDB password.
